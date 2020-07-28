@@ -1,5 +1,8 @@
 body{
     margin: 0;
+    font-family: Garamond, Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 140%;
 }
 
 header{
@@ -9,14 +12,67 @@ header{
     padding-bottom: 65px;
 }
 
+h1, h2{
+    font-family: 'Crimson Text', serif;
+}
+
 header h1{
     color: white;
-    font-family: Garamond, Georgia, 'Times New Roman', Times, serif;
-    font-size: 300%;
+    font-size: 90px;
+    text-transform: uppercase;
 }
 
 header img{
     border-radius: 320px;
     width: 600px;
     border: 12px solid white;
+}
+
+
+
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main img{
+    max-width: 100%;
+}
+
+h2{
+    font-size: 50px;
+    color: #952054;
+    margin: 40px 0 20px;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: #952054;
+}
+
+footer{
+    background-color: #89257b;
+    text-align: center;
+    color: white;
+    padding: 50px;
+
+}
+
+footer p{
+    margin: 0;
+    color: white;
+}
+
+footer a{
+    color: white;
+}
+
+p.caption{
+    color: #999999;
+    font-style: italic;
+    margin: 0;
 }
