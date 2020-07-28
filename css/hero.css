@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: #89257b;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 65px;
+}
+
+header h1{
+    color: white;
+    font-family: Garamond, Georgia, 'Times New Roman', Times, serif;
+    font-size: 300%;
+}
+
+header img{
+    border-radius: 320px;
+    width: 600px;
+    border: 12px solid white;
+}
